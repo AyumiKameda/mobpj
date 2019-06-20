@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ['*'] # デバックモードがFalseの時に設定要
 
 INSTALLED_APPS = [
     'django.contrib.admin', # test1
-    'django.contrib.auth',
+    'django.contrib.auth', # test2
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
