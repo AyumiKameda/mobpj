@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
-import os#test
+import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # プロジェクトのpath
@@ -32,7 +32,7 @@ ALLOWED_HOSTS = ['*'] # デバックモードがFalseの時に設定要
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
+    'django.contrib.admin', # test1
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
