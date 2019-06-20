@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes', # test3
     'django.contrib.sessions',#test4
     'django.contrib.messages', # test5
-    'django.contrib.staticfiles',
+    'django.contrib.staticfiles', # test6
     'srhapp.apps.SrhappConfig', # 自作アプリを紐付け
 ]
 
