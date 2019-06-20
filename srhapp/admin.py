@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Good  # 追記
 
-# Register your models here.
+
+admin.site.register(Good)  # 追記
+
+
