@@ -32,12 +32,12 @@ ALLOWED_HOSTS = ['*'] # デバックモードがFalseの時に設定要
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin', # test1
-    'django.contrib.auth', # test2
-    'django.contrib.contenttypes', # test3
-    'django.contrib.sessions',#test4
-    'django.contrib.messages', # test5
-    'django.contrib.staticfiles', # test6
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
     'srhapp.apps.SrhappConfig', # 自作アプリを紐付け
 ]
 
