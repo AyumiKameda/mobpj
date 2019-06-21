@@ -91,11 +91,10 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '3306',
         'ATOMIC_REQUESTS': True, # トランザクションの有効範囲をリクエストの開始から終了までに設定
-
-        # 初回DB migrate時にエラーが出てしまったので、一旦コメントアウト
-        #'OPTIONS': {
-        #    'sql_mode': 'TRADITIONAL, NO_AUTO_VALUE_ON_ZERO', # 桁溢れの登録時にエラー（厳密モード）
-        #},
+        'OPTIONS': {
+            # 06/21：「, NO」の間のスペースを外してサーバを起動してみたところ、問題なく動作した
+            'sql_mode': 'TRADITIONAL,NO_AUTO_VALUE_ON_ZERO', # 桁溢れの登録時にエラー（厳密モード）
+            },
     }
 }
 
